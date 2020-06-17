@@ -1,31 +1,31 @@
 Make sure you have provided the following information:
 
- - [ ] link to your code branch cloned from rhboot/shim-review in the form user/repo@tag
- - [ ] completed README.md file with the necessary information
- - [ ] shim.efi to be signed
- - [ ] public portion of your certificate embedded in shim (the file passed to VENDOR_CERT_FILE)
- - [ ] any extra patches to shim via your own git tree or as files
- - [ ] any extra patches to grub via your own git tree or as files
- - [ ] build logs
+ - [x] link to your code branch cloned from rhboot/shim-review in the form user/repo@tag
+ - [x] completed README.md file with the necessary information
+ - [x] shim.efi to be signed
+ - [x] public portion of your certificate embedded in shim (the file passed to VENDOR_CERT_FILE)
+ - [x] any extra patches to shim via your own git tree or as files
+ - [x] any extra patches to grub via your own git tree or as files
+ - [x] build logs
 
 
 ###### What organization or people are asking to have this signed:
-`[your text here]`
+`Rohde & Schwarz Cybersecurity GmbH`
 
 ###### What product or service is this for:
-`[your text here]`
+`Trusted Disk Full-disk encryption`
 
 ###### What is the origin and full version number of your shim?
-`[your text here]`
+`https://github.com/rhboot/shim/releases/tag/15`
 
 ###### What's the justification that this really does need to be signed for the whole world to be able to boot it:
 `[your text here]`
 
 ###### How do you manage and protect the keys used in your SHIM?
-`[your text here]`
+`The private key is stored on hardware token with restricted access.`
 
 ###### Do you use EV certificates as embedded certificates in the SHIM?
-`[your text here]`
+`No`
 
 ###### What is the origin and full version number of your bootloader (GRUB or other)?
 `[your text here]`
